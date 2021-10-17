@@ -1,0 +1,253 @@
+
+ .btn-danger,
+ .btn-default,
+ .btn-primary,
+ .btn-success,
+ .btn-warning {
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075)
+ }
+ 
+ .btn-danger:active,
+ .btn-default:active,
+ .btn-primary:active,
+ .btn-success:active,
+ .btn-warning:active {
+     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+ }
+ 
+ .btn-danger[disabled],
+ .btn-default[disabled],
+ .btn-primary[disabled],
+ .btn-success[disabled],
+ .btn-warning[disabled],
+ fieldset[disabled] .btn-danger,
+ fieldset[disabled] .btn-default,
+ fieldset[disabled] .btn-primary,
+ fieldset[disabled] .btn-success,
+ fieldset[disabled] .btn-warning {
+     -webkit-box-shadow: none;
+     box-shadow: none
+ }
+ 
+ .btn-danger .badge,
+ .btn-default .badge,
+ .btn-primary .badge,
+ .btn-success .badge,
+ .btn-warning .badge {
+     text-shadow: none
+ }
+ 
+ .btn:active {
+     background-image: none
+ }
+ 
+ .btn-default {
+     text-shadow: 0 1px 0 #fff;
+     background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+     background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+     background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+     background-repeat: repeat-x;
+     border-color: #dbdbdb;
+     border-color: #ccc
+ }
+ 
+ .btn-default:focus,
+ .btn-default:hover {
+     background-color: #e0e0e0;
+     background-position: 0 -15px
+ }
+ 
+ .btn-default:active {
+     background-color: #e0e0e0;
+     border-color: #dbdbdb
+ }
+ 
+ .btn-default[disabled],
+ .btn-default[disabled]:active,
+ .btn-default[disabled]:focus,
+ .btn-default[disabled]:hover,
+ fieldset[disabled] .btn-default,
+ fieldset[disabled] .btn-default:active,
+ fieldset[disabled] .btn-default:focus,
+ fieldset[disabled] .btn-default:hover {
+     background-color: #e0e0e0;
+     background-image: none
+ }
+ 
+ .btn-primary {
+     background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
+     background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
+     background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+     background-repeat: repeat-x;
+     border-color: #245580
+ }
+ 
+ .btn-primary:focus,
+ .btn-primary:hover {
+     background-color: #265a88;
+     background-position: 0 -15px
+ }
+ 
+ .btn-primary:active {
+     background-color: #265a88;
+     border-color: #245580
+ }
+ 
+ .btn-primary[disabled],
+ .btn-primary[disabled]:active,
+ .btn-primary[disabled]:focus,
+ .btn-primary[disabled]:hover,
+ fieldset[disabled] .btn-primary,
+ fieldset[disabled] .btn-primary:active,
+ fieldset[disabled] .btn-primary:focus,
+ fieldset[disabled] .btn-primary:hover {
+     background-color: #265a88;
+     background-image: none
+ }
+ 
+ .btn-success {
+     background-image: -webkit-linear-gradient(top, #5cb85c 0, #419641 100%);
+     background-image: -o-linear-gradient(top, #5cb85c 0, #419641 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));
+     background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+     background-repeat: repeat-x;
+     border-color: #3e8f3e
+ }
+ 
+ .btn-success:focus,
+ .btn-success:hover {
+     background-color: #419641;
+     background-position: 0 -15px
+ }
+ 
+ .btn-success:active {
+     background-color: #419641;
+     border-color: #3e8f3e
+ }
+ 
+ .btn-success[disabled],
+ .btn-success[disabled]:active,
+ .btn-success[disabled]:focus,
+ .btn-success[disabled]:hover,
+ fieldset[disabled] .btn-success,
+ fieldset[disabled] .btn-success:active,
+ fieldset[disabled] .btn-success:focus,
+ fieldset[disabled] .btn-success:hover {
+     background-color: #419641;
+     background-image: none
+ }
+ 
+ .btn-warning {
+     background-image: -webkit-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+     background-image: -o-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+     background-image: linear-gradient(to bottom, #f0ad4e 0, #eb9316 100%);
+     background-repeat: repeat-x;
+     border-color: #e38d13
+ }
+ 
+ .btn-warning:focus,
+ .btn-warning:hover {
+     background-color: #eb9316;
+     background-position: 0 -15px
+ }
+ 
+ .btn-warning:active {
+     background-color: #eb9316;
+     border-color: #e38d13
+ }
+ 
+ .btn-warning[disabled],
+ .btn-warning[disabled]:active,
+ .btn-warning[disabled]:focus,
+ .btn-warning[disabled]:hover,
+ fieldset[disabled] .btn-warning,
+ fieldset[disabled] .btn-warning:active,
+ fieldset[disabled] .btn-warning:focus,
+ fieldset[disabled] .btn-warning:hover {
+     background-color: #eb9316;
+     background-image: none
+ }
+ 
+ .btn-danger {
+     background-image: -webkit-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+     background-image: -o-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));
+     background-image: linear-gradient(to bottom, #d9534f 0, #c12e2a 100%);
+     background-repeat: repeat-x;
+     border-color: #b92c28
+ }
+ 
+ .btn-danger:focus,
+ .btn-danger:hover {
+     background-color: #c12e2a;
+     background-position: 0 -15px
+ }
+ 
+ .btn-danger:active {
+     background-color: #c12e2a;
+     border-color: #b92c28
+ }
+ 
+ .btn-danger[disabled],
+ .btn-danger[disabled]:active,
+ .btn-danger[disabled]:focus,
+ .btn-danger[disabled]:hover,
+ fieldset[disabled] .btn-danger,
+ fieldset[disabled] .btn-danger:active,
+ fieldset[disabled] .btn-danger:focus,
+ fieldset[disabled] .btn-danger:hover {
+     background-color: #c12e2a;
+     background-image: none
+ }
+ 
+ .img-thumbnail,
+ .thumbnail {
+     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+     box-shadow: 0 1px 2px rgba(0, 0, 0, .075)
+ }
+ 
+ .navbar-default {
+     background-image: -webkit-linear-gradient(top, #fff 0, #f8f8f8 100%);
+     background-image: -o-linear-gradient(top, #fff 0, #f8f8f8 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8));
+     background-image: linear-gradient(to bottom, #fff 0, #f8f8f8 100%);
+     background-repeat: repeat-x;
+     border-radius: 4px;
+     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075)
+ }
+ 
+ .navbar-brand,
+ .navbar-nav>li>a {
+     text-shadow: 0 1px 0 rgba(255, 255, 255, .25)
+ }
+ 
+ .navbar-inverse {
+     background-image: -webkit-linear-gradient(top, #3c3c3c 0, #222 100%);
+     background-image: -o-linear-gradient(top, #3c3c3c 0, #222 100%);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
+     background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
+     background-repeat: repeat-x;
+     border-radius: 4px
+ }
+ 
+ .navbar-inverse .navbar-brand,
+ .navbar-inverse .navbar-nav>li>a {
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+ }
+ 
+ .navbar-fixed-top {
+     border-radius: 0
+ }
+ 
+ .list-group {
+     border-radius: 4px;
+     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+     box-shadow: 0 1px 2px rgba(0, 0, 0, .075)
+ }
